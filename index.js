@@ -5,7 +5,8 @@ const cors = require("cors");
 // const app = express();
 // const port = 3000;
 
-const port = process.env.PORT || 4000;
+var port = process.env.PORT || 4000,
+  http = require("http");
 
 // var log = function (entry) {
 //   fs.appendFileSync(
