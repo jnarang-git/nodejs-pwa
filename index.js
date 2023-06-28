@@ -4,10 +4,8 @@ const AWS = require("aws-sdk");
 const cors = require("cors");
 // const app = express();
 // const port = 3000;
-var port = process.env.PORT || 4000,
-  http = require("http"),
-  fs = require("fs"),
-  html = fs.readFileSync("index.html");
+
+const port = process.env.PORT || 4000;
 
 // var log = function (entry) {
 //   fs.appendFileSync(
